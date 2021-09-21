@@ -4,7 +4,7 @@
   "description": "BOT DISCORD HECKAYO.",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node nulis2.js"
   },
   "dependencies": {
     "brainly-scraper": "^1.0.3",
