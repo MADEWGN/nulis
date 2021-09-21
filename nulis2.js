@@ -14,7 +14,7 @@ const bot = new TeleBot({
 
 
 module.exports = bot => {
-    bot.on(/^\/nulis2 ([\s\S]+)/, async (msg, args) => {
+    bot.on(/^\/nulis ([\s\S]+)/, async (msg, args) => {
     let arg = args.match[1]
 
     let url = 'https://freerestapi-backend-py.herokuapp.com/nulis?text='
